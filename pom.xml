@@ -1,33 +1,32 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
-         https://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xml**="http://maven.apache.org/POM/4.0**"
+         xmlns**si="http://www.w3.org/2001/XMLSch**a-instance"
+         xsi**chemaLocation="http://maven.apach**org/POM/4.0.0
+                   **        https://maven**pache.org/xsd/maven-4.0.0.xsd">
 
-    <modelVersion>4.0.0</modelVersion>
+**  <modelVersion>4.0.0</modelVersi**>
 
-    <groupId>com.harish.demo</groupId>
-    <artifactId>hello-world-war</artifactId>
-    <version>1.0</version>
-    <packaging>war</packaging>
+    <groupId>**m**arish.demo</groupId>
+    <artifac**d>hello-world-war</artifactId>
+  **<version>1.0</version>
+    <packa**ng>war</packaging>
 
-    <name>Hello World WAR Application</name>
+    <name>Hel** World WAR Application</name>
 
-    <properties>
-        <maven.compiler.source>17</maven.compiler.source>
-        <maven.compiler.target>17</maven.compiler.target>
-    </properties>
+  **<properties>
+        <maven.compi**r.source>17</maven.compiler.sourc**
+        <maven.compiler.target>1**/maven.compiler.target>
+    </pro**rties>
 
     <build>
-        <finalName>hello-world</finalName>
+        <fina**ame>hello-world</finalName>
 
-        <plugins>
+    **  <plugins>
             <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-war-plugin</artifactId>
-                <version>3.4.0</version>
-            </plugin>
+**              <groupId>org.apache**aven.plugins</groupId>
+          **    <artifactId>maven-war-plugin<**rtifactId>
+                <versi**>3.4.0</version>
+            </pl**in>
         </plugins>
-    </build>
+    </buil**
 
 </project>
-`
